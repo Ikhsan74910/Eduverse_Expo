@@ -1,0 +1,129 @@
+/* File: css/presensi.css */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f2f5 !important;  /* Warna biru */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background-color: #000000; /* Warna biru */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #2c4c7f; /* Warna biru lebih gelap saat hover */
+}
+
+.kode-display {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #bfd1ed;
+    border-radius: 4px;
+    border: 2px solid #2c4c7f; /* Border biru */
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c4c7f; /* Warna biru */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.status-select {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.action-btn {
+    background-color: #2c4c7f; /* Warna biru */
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #4366a1; /* Warna biru lebih gelap saat hover */
+}
+
+.status-hadir {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.status-tidak-hadir {
+    color: #f44336;
+    font-weight: bold;
+}
+
+.status-menunggu {
+    color: #ff9800;
+    font-weight: bold;
+}

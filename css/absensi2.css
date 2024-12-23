@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table-content:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.btn-primary {
+    margin: 10px 0;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.alert {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    margin-bottom: 15px;
+}
+
+.nav-tabs {
+    margin-top: 15px;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4 !important;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-item{
+    background-color: bisque !important;
+}
+
+.nav-link{
+    font-weight: bold !important;
+}
+
+.card-header {
+    background-color: #2c4c7f !important;
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.card {
+    border: 1px solid #fdfdfe;
+}
+
+.btn-primary {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    background-color: #4f77bc !important;
+    border-color: #4f77bc !important;
+    font-weight: bold !important;
+}
+
+.btn-primary:hover {
+    background-color: #4366a1 !important;
+    border-color: #4366a1 !important;
+}
+
+.row{
+    width: 100% !important;
+}
+
+.table-content{
+    cursor: pointer !important;
+}
+
+.user-profile{
+    background-color: #fdfdfe !important;
+}
